@@ -1,17 +1,17 @@
 import random
 attempt_list = []
-def len_list():
+def len_list(): #Show the total gusses
     if len(attempt_list) == 0:
         print("NO gusses right now")
     else:
         print("you have guss {} number so far!".format(len(attempt_list)))
-def start_game():
-    number = random.randint(1,10)
+def start_game(): 
+    number = random.randint(1,10) #random nunber between 1 to 10
     print("Hi welcome to our fun game!")
     print("You should guss our number and win")
     print("Good luck")
     try:
-        while True:
+        while True: #This loop is continue till we guss right value
             guss_number = int(input())
             attempt_list.append(guss_number)
             if guss_number == number:
