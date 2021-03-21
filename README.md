@@ -1,5 +1,3 @@
-# Simple project with python
+# Gussing game
 
-I'm going to do some simple projects with python
-
-glad to hear your feedbacks
+This is an infinitive gussing game with pyhton 
