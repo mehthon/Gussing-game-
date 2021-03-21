@@ -1,12 +1,14 @@
 import random
 attempt_list = []
+
+
 def len_list():
     if len(attempt_list) == 0:
         print("NO gusses right now")
     else:
         print("you have guss {} number so far!".format(len(attempt_list)))
         
-        
+
 def start_game():
     number = random.randint(1,10)
     print("Hi welcome to our fun game!")
