@@ -5,6 +5,8 @@ def len_list():
         print("NO gusses right now")
     else:
         print("you have guss {} number so far!".format(len(attempt_list)))
+        
+        
 def start_game():
     number = random.randint(1,10)
     print("Hi welcome to our fun game!")
@@ -24,8 +26,6 @@ def start_game():
     except ValueError as err:
         print("Oops invalid please try again...")
         print("{}".format(err))
-
-
 
 
 
